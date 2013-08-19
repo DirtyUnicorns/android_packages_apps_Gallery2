@@ -7,6 +7,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
     android-support-v13
+
 LOCAL_STATIC_JAVA_LIBRARIES += com.android.gallery3d.common2
 LOCAL_STATIC_JAVA_LIBRARIES += xmp_toolkit
 LOCAL_STATIC_JAVA_LIBRARIES += mp4parser
@@ -24,9 +25,11 @@ LOCAL_AAPT_FLAGS += --extra-packages android.support.compat
 
 LOCAL_PACKAGE_NAME := Gallery2
 
+LOCAL_CERTIFICATE := platform
+
 LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D
 
-LOCAL_SDK_VERSION := current
+#LOCAL_SDK_VERSION := current
 
 LOCAL_JNI_SHARED_LIBRARIES := libjni_eglfence libjni_filtershow_filters libjni_jpegstream
 
