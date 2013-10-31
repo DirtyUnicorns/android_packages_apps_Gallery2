@@ -108,7 +108,7 @@ public class SelectionManager {
         return mInverseSelection ^ mClickedSet.contains(itemId);
     }
 
-    private int getTotalCount() {
+    public int getTotalCount() {
         if (mSourceMediaSet == null) return -1;
 
         if (mTotal < 0) {
