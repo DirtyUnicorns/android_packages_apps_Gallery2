@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * You may obtain a copy of the License at:
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -565,7 +565,7 @@ public class AlbumPage extends ActivityState implements GalleryActionBar.Cluster
         }
         actionBar.setSubtitle(null);
         // remove slideshow if all are videos
-        if (allVideoFiles() && !mGetContent){
+        if (!mGetContent && allVideoFiles()) {
             menu.findItem(R.id.action_slideshow).setVisible(false);
         }
         return true;
@@ -682,7 +682,7 @@ public class AlbumPage extends ActivityState implements GalleryActionBar.Cluster
     }
 
     private void updateMenuItem() {
-        if (allVideoFiles() && !mGetContent) {
+        if (!mGetContent && allVideoFiles()) {
             mActionMenu.findItem(R.id.action_slideshow).setVisible(false);
         }
     }
