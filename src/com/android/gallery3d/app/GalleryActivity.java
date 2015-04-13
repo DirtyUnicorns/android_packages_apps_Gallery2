@@ -24,7 +24,6 @@ import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
 import android.database.Cursor;
 import android.drm.DrmManagerClient;
-import android.drm.DrmManagerClientWrapper;
 import android.drm.DrmStore.Action;
 import android.drm.DrmStore.DrmDeliveryType;
 import android.drm.DrmStore.RightsStatus;
@@ -253,8 +252,12 @@ public final class GalleryActivity extends AbstractGalleryActivity implements On
 
                 Log.d(TAG,"imagePath=" + imagePath);
                 if (intent.getBooleanExtra("WidgetClick", false) == true) {
-                    DrmManagerClientWrapper drmClient = new DrmManagerClientWrapper(this);
+                    DrmManagerClient drmClient = new DrmManagerClient(this);
+
+                    // This hack is added to work FL. It will remove after the sdcard permission issue solved
                     int status = drmClient.checkRightsStatus(imagePath, Action.DISPLAY);
+                    status = RightsStatus.RIGHTS_VALID;
+
                     if (RightsStatus.RIGHTS_VALID != status) {
                         ContentValues values = drmClient.getMetadata(imagePath);
                         String address = values.getAsString("Rights-Issuer");
@@ -268,7 +271,7 @@ public final class GalleryActivity extends AbstractGalleryActivity implements On
 
                 if (imagePath != null
                         && (imagePath.endsWith(".dcf") || imagePath.endsWith(".dm"))) {
-                    DrmManagerClientWrapper drmClient = new DrmManagerClientWrapper(this);
+                    DrmManagerClient drmClient = new DrmManagerClient(this);
                     imagePath = imagePath.replace("/storage/emulated/0", "/storage/emulated/legacy");
                     ContentValues values = drmClient.getMetadata(imagePath);
                     int drmType = values.getAsInteger("DRM-TYPE");
