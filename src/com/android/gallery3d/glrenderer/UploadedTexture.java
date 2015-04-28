@@ -184,6 +184,7 @@ public abstract class UploadedTexture extends BasicTexture {
      * @param canvas
      */
     public void updateContent(GLCanvas canvas) {
+        if (canvas == null) return;
         if (!isLoaded()) {
             if (mThrottled && ++sUploadedCount > UPLOAD_LIMIT) {
                 return;
