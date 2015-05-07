@@ -54,6 +54,13 @@ public class StyleChooser implements Control {
                 @Override
                 public void onClick(View arg0) {
                     mParameter.setSelected(buttonNo);
+                    for (int j = 0; j < mParameter.getNumberOfStyles(); j ++) {
+                        if (buttonNo == j)
+                            button.setBackgroundResource(R.drawable.filtershow_button_border);
+                        else
+                            mIconButton.elementAt(j).setBackgroundResource(
+                                    android.R.color.transparent);
+                    }
                 }
             });
             mLinearLayout.addView(button);
