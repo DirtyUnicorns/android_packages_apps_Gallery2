@@ -18,6 +18,7 @@ package com.android.gallery3d.ui;
 
 import android.graphics.Rect;
 import android.os.Handler;
+import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -37,6 +38,7 @@ public class SlotView extends GLView {
     private static final String TAG = "SlotView";
 
     private static final int INDEX_NONE = -1;
+    private static final int mainKey = SystemProperties.getInt("qemu.hw.mainkeys", 1);
 
     public static final int RENDER_MORE_PASS = 1;
     public static final int RENDER_MORE_FRAME = 2;
@@ -139,8 +141,10 @@ public class SlotView extends GLView {
             position = visibleBegin;
         } else if (slotBegin < visibleBegin) {
             position = slotBegin;
-        } else if (slotEnd > visibleEnd) {
+        } else if (slotEnd > visibleEnd && mainKey == 1) {
             position = slotEnd - visibleLength;
+        } else if (slotBegin > visibleEnd && mainKey == 0) {
+            position = slotBegin - visibleLength;
         }
 
         setScrollPosition(position);
