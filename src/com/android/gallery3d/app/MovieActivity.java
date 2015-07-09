@@ -675,7 +675,8 @@ public class MovieActivity extends Activity {
                     mPlayer.onStop();
                     mControlResumed = false;
                 }
-            } else if (Intent.ACTION_USER_PRESENT.equals(intent.getAction())) {
+            } else if (Intent.ACTION_USER_PRESENT.equals(intent.getAction()) &&
+                    MovieActivity.this.hasWindowFocus()) {
                 if (!mControlResumed) {
                     mPlayer.onResume();
                     mControlResumed = true;
