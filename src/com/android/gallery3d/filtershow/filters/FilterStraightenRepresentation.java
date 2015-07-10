@@ -21,6 +21,7 @@ import android.util.JsonWriter;
 import android.util.Log;
 
 import com.android.gallery3d.R;
+import com.android.gallery3d.app.GalleryAppImpl;
 import com.android.gallery3d.filtershow.editors.EditorStraighten;
 
 import java.io.IOException;
@@ -48,7 +49,7 @@ public class FilterStraightenRepresentation extends FilterRepresentation {
 
     public FilterStraightenRepresentation(FilterStraightenRepresentation s) {
         this(s.getStraighten());
-        setName(s.getName());
+        setName(GalleryAppImpl.getContext().getString(R.string.straighten));
     }
 
     public FilterStraightenRepresentation() {

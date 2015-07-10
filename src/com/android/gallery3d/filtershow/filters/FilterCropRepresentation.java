@@ -21,6 +21,7 @@ import android.util.JsonReader;
 import android.util.JsonWriter;
 
 import com.android.gallery3d.R;
+import com.android.gallery3d.app.GalleryAppImpl;
 import com.android.gallery3d.filtershow.editors.EditorCrop;
 
 import java.io.IOException;
@@ -48,7 +49,7 @@ public class FilterCropRepresentation extends FilterRepresentation {
 
     public FilterCropRepresentation(FilterCropRepresentation m) {
         this(m.mCrop);
-        setName(m.getName());
+        setName(GalleryAppImpl.getContext().getString(R.string.crop));
     }
 
     public FilterCropRepresentation() {
