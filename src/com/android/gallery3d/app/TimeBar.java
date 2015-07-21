@@ -73,6 +73,7 @@ public class TimeBar extends View {
     protected int mScrubberPadding; // adds some touch tolerance around the
                                     // scrubber
 
+    protected int mProgressTop;
     protected int mScrubberLeft;
     protected int mScrubberTop;
     protected int mScrubberCorrection;
@@ -240,11 +241,11 @@ public class TimeBar extends View {
                 margin += mTimeBounds.width();
             }
             margin = mLayoutExt.getProgressMargin(margin);
-            int progressY = (h + mScrubberPadding) / 2 + mLayoutExt.getProgressOffset(mTimeBounds);
-            mScrubberTop = progressY - mScrubber.getHeight() / 2 + 1;
+            mProgressTop = (h + mScrubberPadding) / 2 + mLayoutExt.getProgressOffset(mTimeBounds);
+            mScrubberTop = mProgressTop - mScrubber.getHeight() / 2 + 1;
             mProgressBar.set(
-                    getPaddingLeft() + margin, progressY,
-                    w - getPaddingRight() - margin, progressY + 4);
+                    getPaddingLeft() + margin, mProgressTop,
+                    w - getPaddingRight() - margin, mProgressTop + 4);
         }
         update();
     }
@@ -268,23 +269,23 @@ public class TimeBar extends View {
                 canvas.drawText(
                         stringForTime(mCurrentTime),
                         getWidth() - getPaddingRight() - mTimeBounds.width() / 2,
-                        mTimeBounds.height() + mVPaddingInPx / 2 + mScrubberPadding + 1,
+                        mProgressTop - mTimeBounds.height() - mScrubberPadding,
                         mTimeTextPaint);
                 canvas.drawText(
                         stringForTime(mTotalTime),
                         mTimeBounds.width() / 2 + getPaddingLeft(),
-                        mTimeBounds.height() + mVPaddingInPx / 2 + mScrubberPadding + 1,
+                        mProgressTop - mTimeBounds.height() - mScrubberPadding,
                         mTimeTextPaint);
             } else {
                 canvas.drawText(
                         stringForTime(mCurrentTime),
                         mTimeBounds.width() / 2 + getPaddingLeft(),
-                        mTimeBounds.height() + mVPaddingInPx / 2 + mScrubberPadding + 1,
+                        mProgressTop - mTimeBounds.height() - mScrubberPadding,
                         mTimeTextPaint);
                 canvas.drawText(
                         stringForTime(mTotalTime),
                         getWidth() - getPaddingRight() - mTimeBounds.width() / 2,
-                        mTimeBounds.height() + mVPaddingInPx / 2 + mScrubberPadding + 1,
+                        mProgressTop - mTimeBounds.height() - mScrubberPadding,
                         mTimeTextPaint);
             }
         }
