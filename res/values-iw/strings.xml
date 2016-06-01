@@ -95,6 +95,8 @@
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="one">האם למחוק את הפריט שנבחר?</item>
+    <item quantity="two">האם למחוק את הפריטים שנבחרו?</item>
+    <item quantity="many">האם למחוק את הפריטים שנבחרו?</item>
     <item quantity="other">האם למחוק את הפריטים שנבחרו?</item>
   </plurals>
   <string name="confirm">אשר</string>
@@ -119,18 +121,24 @@
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
     <item quantity="one">‏%1$d נבחר</item>
+    <item quantity="two">‏%1$d נבחרו</item>
+    <item quantity="many">‏%1$d נבחרו</item>
     <item quantity="other">‏%1$d נבחרו</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
     <item quantity="one">‏%1$d נבחר</item>
+    <item quantity="two">‏%1$d נבחרו</item>
+    <item quantity="many">‏%1$d נבחרו</item>
     <item quantity="other">‏%1$d נבחרו</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
     <item quantity="one">‏%1$d נבחרו</item>
+    <item quantity="two">‏%1$d נבחרו</item>
+    <item quantity="many">‏%1$d נבחרו</item>
     <item quantity="other">‏%1$d נבחרו</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
@@ -307,6 +315,8 @@
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
     <item quantity="one">הופך את האלבום לזמין במצב לא מקוון.</item>
+    <item quantity="two">הופך את האלבומים לזמינים באופן לא מקוון.</item>
+    <item quantity="many">הופך את האלבומים לזמינים באופן לא מקוון.</item>
     <item quantity="other">הופך את האלבומים לזמינים באופן לא מקוון.</item>
   </plurals>
   <!-- Toast message shown after we try to make a local album available offline
@@ -434,11 +444,15 @@
   <!-- String indicating how many media items from the camera have been scanned -->
   <plurals name="ingest_number_of_items_scanned">
     <item quantity="one">‏פריט %1$d נסרק</item>
+    <item quantity="two">‏%1$d פריטים נסרקו</item>
+    <item quantity="many">‏%1$d פריטים נסרקו</item>
     <item quantity="other">‏%1$d פריטים נסרקו</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
   <plurals name="ingest_number_of_items_selected">
     <item quantity="one">%1$d item selected</item>
+    <item quantity="two">%1$d items selected</item>
+    <item quantity="many">%1$d items selected</item>
     <item quantity="other">%1$d items selected</item>
   </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
@@ -498,6 +512,8 @@
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">שנייה אחת</item>
+    <item quantity="two">‏%d שניות</item>
+    <item quantity="many">‏%d שניות</item>
     <item quantity="other">‏%d שניות</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
@@ -885,6 +901,8 @@ CHAR LIMIT = NONE] -->
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
   <plurals name="number_of_photos">
     <item quantity="one">‏תמונה %1$d</item>
+    <item quantity="two">‏%1$d תמונות</item>
+    <item quantity="many">‏%1$d תמונות</item>
     <item quantity="other">‏%1$d תמונות</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->

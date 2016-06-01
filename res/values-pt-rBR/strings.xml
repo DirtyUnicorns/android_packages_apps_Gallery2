@@ -257,11 +257,11 @@ Imagem recortada salva em <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Fabricante</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
-  <string name="model">Model</string>
+  <string name="model">Modelo</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Flash</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
-  <string name="aperture">Aperture</string>
+  <string name="aperture">Abertura</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
   <string name="focal_length">Distância Focal</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->
@@ -276,9 +276,9 @@ Imagem recortada salva em <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Manual</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-  <string name="auto">Auto</string>
+  <string name="auto">Automático</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
-  <string name="flash_on">Flash fired</string>
+  <string name="flash_on">Flash Ativo</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <string name="flash_off">Sem flash</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
@@ -319,11 +319,11 @@ Imagem recortada salva em <xliff:g id="folder_name">%s</xliff:g>.</string>
   <string name="set_label_all_albums">Todos os álbuns</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing albums stored locally on the device [CHAR LIMIT=20] -->
-  <string name="set_label_local_albums">Local albums</string>
+  <string name="set_label_local_albums">Álbuns locais</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing MTP devices connected (like other digital cameras).
          [CHAR LIMIT=20] -->
-  <string name="set_label_mtp_devices">MTP devices</string>
+  <string name="set_label_mtp_devices">Dispositivos MTP</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing Picasa albums [CHAR LIMIT=20] -->
   <string name="set_label_picasa_albums">Picasa albums</string>

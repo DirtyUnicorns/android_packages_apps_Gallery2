@@ -222,7 +222,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Gör tillgängliga offline</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
+  <string name="more_image">Fler bilder</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Uppdatera</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -258,7 +258,7 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modell</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
-  <string name="flash">Flash</string>
+  <string name="flash">Blixt</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Bländare</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -285,20 +285,20 @@
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">Original</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
+  <string name="ffx_vintage">Retro</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
-  <string name="ffx_instant">Instant</string>
+  <string name="ffx_instant">Omedelbar</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
-  <string name="ffx_bleach">Bleach</string>
+  <string name="ffx_bleach">Blekt</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
-  <string name="ffx_blue_crush">Blue</string>
+  <string name="ffx_blue_crush">Blå</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
-  <string name="ffx_bw_contrast">B/W</string>
+  <string name="ffx_bw_contrast">S/V</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
   <string name="ffx_punch">Punch</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
-  <string name="ffx_x_process">X Process</string>
+  <string name="ffx_x_process">X-processen</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
   <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
@@ -422,7 +422,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Det gick inte att beskära videon. Målvideon är för kort</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Can not mute : not supported video</string>
+  <string name="mute_nosupport">Kan inte tysta : video saknar stöd</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Panoramabild hämtas</string>
   <!-- The label on the button that will save an edited image -->
@@ -430,7 +430,7 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
+  <string name="ingest_scanning" msgid="2048262851775139720">Skannar innehåll\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
   <plurals name="ingest_number_of_items_scanned">
     <item quantity="one">%1$d objekt har skannats</item>
@@ -438,15 +438,15 @@
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
   <plurals name="ingest_number_of_items_selected">
-    <item quantity="one">%1$d item selected</item>
-    <item quantity="other">%1$d items selected</item>
+    <item quantity="one">%1$d post vald</item>
+    <item quantity="other">%1$d poster valda</item>
   </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
-  <string name="ingest_sorting" msgid="624687230903648118">Sorting\u2026</string>
+  <string name="ingest_sorting" msgid="624687230903648118">Sorterar\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
   <string name="ingest_scanning_done">Skannat</string>
   <!--  Status message shown when content from an external camera is being imported -->
-  <string name="ingest_importing">Importing\u2026</string>
+  <string name="ingest_importing">Importerar\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <string name="ingest_empty_device">Det finns inget tillgängligt innehåll att importera på den här enheten.</string>
   <!--  Status message shown when there is no MTP device connected  -->
@@ -599,7 +599,7 @@
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_action">Action</string>
+  <string name="pref_camera_scenemode_entry_action">Handling</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_night">Natt</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
@@ -609,7 +609,7 @@
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_auto">INGA</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
-  <string name="pref_camera_scenemode_label_action">ACTION</string>
+  <string name="pref_camera_scenemode_label_action">HANDLING</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_night">NATT</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
@@ -642,7 +642,7 @@
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">BAKRE KAMERA</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Din USB-lagringsenhet börjar bli full. Ändra kvalitetsinställningen eller ta bort några bilder eller andra filer.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -868,7 +868,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Ja</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">There is no map app for show location.</string>
+  <string name="map_activity_not_found_err">Det finns ingen kartaapp för att visa plats.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Kamera</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -888,15 +888,15 @@ CHAR LIMIT = NONE] -->
     <item quantity="other">%1$d foton</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Bass boost</string>
+  <string name="bass_boost_strength">Basförstärkning</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D effect</string>
+  <string name="virtualizer_strength">3D-effekt</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Audio effects</string>
+  <string name="audio_effects">Ljudeffekter</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Plug in headphones for these effects.</string>
+  <string name="headset_plug">Koppla in hörlurar för dessa effekter.</string>
   <!-- The title of the audio effects dialog. -->
   <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
-  <string name="fail_trim">Sorry, this video file can not be trimmed</string>
+  <string name="fail_trim">Denna videofil kan tyvärr inte klippas</string>
 </resources>
