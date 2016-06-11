@@ -218,7 +218,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">可在離線時使用</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
+  <string name="more_image">更多圖片</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">重新整理</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -417,7 +417,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">無法修剪：目標影片長度過短</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Can not mute : not supported video</string>
+  <string name="mute_nosupport">無法靜音：不支援的影片</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">正在進行全景成像作業</string>
   <!-- The label on the button that will save an edited image -->
@@ -425,14 +425,14 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
+  <string name="ingest_scanning" msgid="2048262851775139720">正在掃描內容\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
   <plurals name="ingest_number_of_items_scanned">
     <item quantity="other">已掃描 %1$d 個項目</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
   <plurals name="ingest_number_of_items_selected">
-    <item quantity="other">%1$d items selected</item>
+    <item quantity="other">已選擇 %1$d 個項目</item>
   </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Sorting\u2026</string>
@@ -860,7 +860,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">是</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">There is no map app for show location.</string>
+  <string name="map_activity_not_found_err">無地圖應用程式。</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">相機</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -885,9 +885,9 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the audio effects menu. -->
   <string name="audio_effects">音效</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Plug in headphones for these effects.</string>
+  <string name="headset_plug">插入耳機以體驗這些效果。</string>
   <!-- The title of the audio effects dialog. -->
   <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
-  <string name="fail_trim">Sorry, this video file can not be trimmed</string>
+  <string name="fail_trim">很抱歉，此影片檔案無法被修剪</string>
 </resources>

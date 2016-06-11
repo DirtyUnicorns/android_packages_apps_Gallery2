@@ -32,9 +32,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- Strings for step option settins -->
   <string name="setp_option_name">Adım</string>
   <string name="step_option_desc">Hızlı ileri/geri sarma aralıklarını özelleştir</string>
-  <string name="setp_option_three_second">3 seconds</string>
-  <string name="setp_option_six_second">6 seconds</string>
-  <string name="loop">"Loop"</string>
+  <string name="setp_option_three_second">3 saniye</string>
+  <string name="setp_option_six_second">6 saniye</string>
+  <string name="loop">"Döngü"</string>
   <string name="single">"Tek"</string>
   <string name="stereo">"Stereo"</string>
   <string name="speaker_on">Hoparlör AÇIK</string>
