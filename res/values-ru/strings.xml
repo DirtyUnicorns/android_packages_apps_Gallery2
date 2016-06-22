@@ -119,21 +119,21 @@
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
-    <item quantity="one">выбрано</item>
+    <item quantity="one">%1$d</item>
     <item quantity="few">выбрано</item>
     <item quantity="other">выбрано</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
-    <item quantity="one">выбрано</item>
+    <item quantity="one">%1$d</item>
     <item quantity="few">выбрано</item>
     <item quantity="other">выбрано</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
-    <item quantity="one">выбрано</item>
+    <item quantity="one">%1$d</item>
     <item quantity="few">выбрано</item>
     <item quantity="other">выбрано</item>
   </plurals>
@@ -310,9 +310,9 @@
   <string name="ffx_washout_color">Литография</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
-    <item quantity="one">Загрузка альбома для офлайн-доступа</item>
-    <item quantity="few">Загрузка альбома для офлайн-доступа</item>
-    <item quantity="other">Загрузка альбома для офлайн-доступа</item>
+    <item quantity="one">Загрузка альбома для офлайн-доступа.</item>
+    <item quantity="few">Загрузка альбомов для офлайн-доступа.</item>
+    <item quantity="other">Загрузка альбомов для офлайн-доступа.</item>
   </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
@@ -435,25 +435,25 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Сканирование контента</string>
+  <string name="ingest_scanning" msgid="2048262851775139720">Сканирование контента\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
   <plurals name="ingest_number_of_items_scanned">
-    <item quantity="one">Отсканировано: </item>
-    <item quantity="few">Отсканировано: </item>
-    <item quantity="other">Отсканировано: </item>
+    <item quantity="one">Отсканировано: %1$d</item>
+    <item quantity="few">Отсканировано: %1$d</item>
+    <item quantity="other">Отсканировано: %1$d</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
   <plurals name="ingest_number_of_items_selected">
-    <item quantity="one">выбрано элементов</item>
-    <item quantity="few">выбрано элементов</item>
-    <item quantity="other">выбрано элементов</item>
+    <item quantity="one">%1$d</item>
+    <item quantity="few">%1$d</item>
+    <item quantity="other">%1$d</item>
   </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
-  <string name="ingest_sorting" msgid="624687230903648118">Сортировка</string>
+  <string name="ingest_sorting" msgid="624687230903648118">Сортировка\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
   <string name="ingest_scanning_done">Сканирование завершено</string>
   <!--  Status message shown when content from an external camera is being imported -->
-  <string name="ingest_importing">Импорт</string>
+  <string name="ingest_importing">Импорт\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <string name="ingest_empty_device">Ничего не найдено</string>
   <!--  Status message shown when there is no MTP device connected  -->
@@ -505,8 +505,8 @@
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <plurals name="pref_camera_timer_entry">
     <item quantity="one">1 сек.</item>
-    <item quantity="few">1 сек.</item>
-    <item quantity="other">1 сек.</item>
+    <item quantity="few">%d сек.</item>
+    <item quantity="other">%d сек.</item>
   </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">Звук таймера</string>
@@ -892,9 +892,9 @@ CHAR LIMIT = NONE] -->
   <string name="camera_menu_settings_label">НАСТРОЙКИ</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
   <plurals name="number_of_photos">
-    <item quantity="one">фото</item>
-    <item quantity="few">фото</item>
-    <item quantity="other">фото</item>
+    <item quantity="one">%1$d фото</item>
+    <item quantity="few">%1$d фото</item>
+    <item quantity="other">%1$d фото</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
   <string name="bass_boost_strength">Усиление НЧ</string>
