@@ -54,7 +54,7 @@
   <string name="resume_playing_restart">Почати знову</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="crop_save_text">OK</string>
+  <string name="crop_save_text">ОК</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
   <string name="ok">ОК</string>
@@ -262,7 +262,7 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Модель</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
-  <string name="flash">Flash</string>
+  <string name="flash">Спалах</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Апертура</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
