@@ -222,7 +222,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Çevrimdışı kullanılabilir yap</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
+  <string name="more_image">Daha çok resim</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Yenile</string>
   <!-- A label on a button. The user clicks this button after he has

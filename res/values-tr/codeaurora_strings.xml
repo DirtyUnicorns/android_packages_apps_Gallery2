@@ -70,7 +70,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="bookmark_exist">"Yer işareti mevcut"</string>
   <string name="bookmark_add_success">"Yer işareti başarıyla eklendi"</string>
   <string name="bookmark_list">"Yer işaretleri"</string>
-  <string name="bookmark_title">"Title"</string>
+  <string name="bookmark_title">"Başlık"</string>
   <string name="bookmark_location">"Konum"</string>
   <string name="delete_all">"Tümünü sil"</string>
   <string name="default_title">"Varsayılan başlık"</string>
