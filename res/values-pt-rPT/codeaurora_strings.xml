@@ -30,21 +30,21 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
-  <string name="setp_option_name">Step</string>
-  <string name="step_option_desc">Customize fast forward/backward step</string>
-  <string name="setp_option_three_second">3 seconds</string>
+  <string name="setp_option_name">Passo</string>
+  <string name="step_option_desc">Personalizar a passo rápido para a frente/trás</string>
+  <string name="setp_option_three_second">3 segundos</string>
   <string name="setp_option_six_second">6 seconds</string>
   <string name="loop">"Loop"</string>
   <string name="single">"Single"</string>
-  <string name="stereo">"Stereo"</string>
-  <string name="speaker_on">Speaker ON</string>
-  <string name="speaker_off">Speaker OFF</string>
-  <string name="speaker_need_headset">Please plug in headset first!</string>
+  <string name="stereo">"Estéreo"</string>
+  <string name="speaker_on">Altifalante ligado</string>
+  <string name="speaker_off">Altifalante desligado</string>
+  <string name="speaker_need_headset">Por favor, ligue no fone de ouvido primeiro!</string>
   <string name="single_track">"Single track"</string>
   <string name="media_detail">"Media details"</string>
   <string name="input_url">"Input URL"</string>
   <string name="streaming_settings">"Streaming Settings"</string>
-  <string name="next">"Next"</string>
+  <string name="next">"Próximo"</string>
   <string name="previous">"Previous"</string>
   <string name="rtp_rtcp">RTP/RTCP</string>
   <string name="min_port">min port:</string>
