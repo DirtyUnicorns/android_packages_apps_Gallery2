@@ -64,13 +64,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="media_controller_live">Live</string>
   <string name="media_controller_playing">Playing</string>
   <string name="media_controller_connecting">Connecting\u2026</string>
-  <string name="bookmark_add">"Add bookmark"</string>
-  <string name="bookmark_display">"Show bookmarks"</string>
-  <string name="bookmark_empty">"No bookmarks"</string>
+  <string name="bookmark_add">"ブックマークを追加"</string>
+  <string name="bookmark_display">"ブックマークを表示"</string>
+  <string name="bookmark_empty">"ブックマークがありません"</string>
   <string name="bookmark_exist">"Same bookmark in history"</string>
   <string name="bookmark_add_success">"Add bookmark success"</string>
   <string name="bookmark_list">"Bookmarks"</string>
-  <string name="bookmark_title">"Title"</string>
+  <string name="bookmark_title">"タイトル"</string>
   <string name="bookmark_location">"Location"</string>
   <string name="delete_all">"Delete all"</string>
   <string name="default_title">"Default title"</string>

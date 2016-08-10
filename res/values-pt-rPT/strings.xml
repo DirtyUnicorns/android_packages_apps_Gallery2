@@ -54,10 +54,10 @@
   <string name="resume_playing_restart">Recomeçar</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="crop_save_text">OK</string>
+  <string name="crop_save_text">Ok</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="ok">OK</string>
+  <string name="ok">Ok</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Toque num rosto para começar.</string>
@@ -222,7 +222,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Disponibilizar offline</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
+  <string name="more_image">Mais imagens</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Atualizar</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -287,7 +287,7 @@
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
   <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
-  <string name="ffx_instant">Instant</string>
+  <string name="ffx_instant">Instantâneo</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
   <string name="ffx_bleach">Bleach</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
@@ -422,7 +422,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Não é possível recortar: o vídeo de destino é demasiado pequeno</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Can not mute : not supported video</string>
+  <string name="mute_nosupport">Não pode cortar o som: vídeo não suportado</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">A compor panorama</string>
   <!-- The label on the button that will save an edited image -->
@@ -430,7 +430,7 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
+  <string name="ingest_scanning" msgid="2048262851775139720">A verificar conteúdo\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
   <plurals name="ingest_number_of_items_scanned">
     <item quantity="one">%1$d item digitalizado</item>
@@ -438,15 +438,15 @@
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
   <plurals name="ingest_number_of_items_selected">
-    <item quantity="one">%1$d item selected</item>
-    <item quantity="other">%1$d items selected</item>
+    <item quantity="one">%1$d item selecionado</item>
+    <item quantity="other">%1$d itens selecionados</item>
   </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
-  <string name="ingest_sorting" msgid="624687230903648118">Sorting\u2026</string>
+  <string name="ingest_sorting" msgid="624687230903648118">Tiragem\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
   <string name="ingest_scanning_done">Digitalização concluída</string>
   <!--  Status message shown when content from an external camera is being imported -->
-  <string name="ingest_importing">Importing\u2026</string>
+  <string name="ingest_importing">A importar\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <string name="ingest_empty_device">Não existe conteúdo disponível para importar neste dispositivo.</string>
   <!--  Status message shown when there is no MTP device connected  -->
@@ -642,7 +642,7 @@
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">CÂMARA POSTERIOR</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Está a ficar sem espaço no armazenamento USB. Altere as definições de qualidade ou elimine algumas imagens ou outros ficheiros.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -868,7 +868,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Sim</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">There is no map app for show location.</string>
+  <string name="map_activity_not_found_err">Não há nenhum aplicativo de mapa para mostrar a localização.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Câmara</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -888,15 +888,15 @@ CHAR LIMIT = NONE] -->
     <item quantity="other">%1$d fotog.</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Bass boost</string>
+  <string name="bass_boost_strength">Aumento dos baixos</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D effect</string>
+  <string name="virtualizer_strength">Efeito 3D</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Audio effects</string>
+  <string name="audio_effects">Efeitos áudio</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Plug in headphones for these effects.</string>
+  <string name="headset_plug">Ligar o auricular para utilizar estes efeitos.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
+  <string name="audio_effects_dialog_title">Snapdragon Audio +</string>
   <!-- The tips of trimming video -->
-  <string name="fail_trim">Sorry, this video file can not be trimmed</string>
+  <string name="fail_trim">Desculpe, este vídeo não pode ser cortado</string>
 </resources>
