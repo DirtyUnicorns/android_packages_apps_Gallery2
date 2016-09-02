@@ -28,11 +28,11 @@
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">مشغّل الفيديو</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
-  <string name="loading_video">جارٍ تحميل الفيديو…</string>
-  <string name="loading_image">جارٍ تحميل الصورة…</string>
+  <string name="loading_video">جارٍ تحميل الفيديو\u2026</string>
+  <string name="loading_image">جارٍ تحميل الصورة\u2026</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
-  <string name="loading_account">جارٍ تحميل الحساب...</string>
+  <string name="loading_account">جارٍ تحميل الحساب\u2026</string>
   <!-- Movie View Resume Playing dialog title -->
   <string name="resume_playing_title">استئناف الفيديو</string>
   <!-- Movie View Start Playing dialog title -->
@@ -40,7 +40,7 @@
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <string name="resume_playing_resume">استئناف التشغيل</string>
   <!-- Displayed in the title of those albums that are being loaded -->
-  <string name="loading">جارٍ التحميل…</string>
+  <string name="loading">جارٍ التحميل\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <string name="fail_to_load">تعذر التحميل</string>
@@ -62,9 +62,9 @@
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">المس وجهًا للبدء.</string>
   <!-- Toast/alert that the image is being saved to the SD card -->
-  <string name="saving_image">جارٍ حفظ الصورة...</string>
+  <string name="saving_image">جارٍ حفظ الصورة\u2026</string>
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
-  <string name="filtershow_saving_image">جارٍ حفظ الصورة في <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …</string>
+  <string name="filtershow_saving_image">جارٍ حفظ الصورة في <xliff:g id="album_name">%1$s</xliff:g> \u2026</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
   <string name="save_error">تعذر حفظ الصورة التي تم اقتصاصها.</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
@@ -94,8 +94,8 @@
   <string name="delete">حذف</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
-    <item quantity="zero">هل تريد حذف العنصر المحدد؟</item>
-    <item quantity="one">هل تريد حذف العناصر المحددة؟</item>
+    <item quantity="zero">حذف العنصر المحدد؟</item>
+    <item quantity="one">حذف العنصر المحدد؟</item>
     <item quantity="two">Delete selected items?</item>
     <item quantity="few">Delete selected items?</item>
     <item quantity="many">Delete selected items?</item>
@@ -223,12 +223,12 @@
   <!-- Title of the StackView AppWidget -->
   <string name="appwidget_title">معرض الصور</string>
   <!-- Text for the empty state of the StackView AppWidget [CHAR LIMIT=30] -->
-  <string name="appwidget_empty_text">ليست هناك أية صور.</string>
+  <string name="appwidget_empty_text">لا يوجد صور.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
   <string name="crop_saved">تم حفظ الصورة التي تم اقتصاصها في <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
   <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->
-  <string name="no_albums_alert">ليست هناك أية ألبومات متاحة.</string>
+  <string name="no_albums_alert">لا يوجد أية ألبومات متاحة.</string>
   <!-- Toast message shown when we close the AlbumPage because it is empty
             [CHAR LIMIT=50] -->
   <string name="empty_album">لا تتوفر أية صور/مقاطع فيديو.</string>
@@ -238,7 +238,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">جعلها متاحة في وضع عدم الاتصال</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
+  <string name="more_image">مزيد من الصور</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">تحديث</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -301,7 +301,7 @@
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">أصلية</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
+  <string name="ffx_vintage">عتيق</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">فوري</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
@@ -311,10 +311,10 @@
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">أبيض/أسود</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
-  <string name="ffx_punch">Punch</string>
+  <string name="ffx_punch">لكمه</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
-  <string name="ffx_x_process">X Process</string>
+  <string name="ffx_x_process">معالج X</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
   <string name="ffx_washout">تبييض</string>
   <!-- String for filter that makes colors washed out and brownish
@@ -453,7 +453,7 @@
   <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
   <plurals name="ingest_number_of_items_scanned">
-    <item quantity="zero">‏تم مسح %1$d من العناصر ضوئيًا</item>
+    <item quantity="zero">‏تم فحص %1$d من العناصر ضوئيًا</item>
     <item quantity="one">‏تم مسح %1$d عنصر ضوئيًا</item>
     <item quantity="two">‏تم مسح %1$d من العناصر ضوئيًا</item>
     <item quantity="few">%1$d items scanned</item>
@@ -926,9 +926,9 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the bass boost knob of the audio effects dialog. -->
   <string name="bass_boost_strength">Bass boost</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D effect</string>
+  <string name="virtualizer_strength">تأثير ثلاثي الأبعاد</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Audio effects</string>
+  <string name="audio_effects">تأثيرات صوتية</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Plug in headphones for these effects.</string>
   <!-- The title of the audio effects dialog. -->
