@@ -762,7 +762,7 @@ public class MovieActivity extends Activity {
             Log.v(TAG, "setActionBarTitle(" + title + ")");
         }
         ActionBar actionBar = getActionBar();
-        if (title != null) {
+        if (actionBar != null && title != null) {
             actionBar.setTitle(title);
         }
     }
