@@ -32,8 +32,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- Strings for step option settins -->
   <string name="setp_option_name">步长</string>
   <string name="step_option_desc">定制快进/快退步长</string>
-  <string name="setp_option_three_second">3秒</string>
-  <string name="setp_option_six_second">6秒</string>
+  <string name="setp_option_three_second">3 秒</string>
+  <string name="setp_option_six_second">6 秒</string>
   <string name="loop">"循环"</string>
   <string name="single">"单次"</string>
   <string name="stereo">"立体声"</string>
@@ -51,10 +51,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="max_port">最大端口:</string>
   <string name="buffer_size">缓存大小</string>
   <string name="apn">优先接入点</string>
-  <string name="rtp_min_port">RTP最小端口</string>
-  <string name="rtp_max_port">RTP最大端口</string>
-  <string name="set_rtp_min_port">设置RTP最小端口</string>
-  <string name="set_rtp_max_port">设置RTP最大端口</string>
+  <string name="rtp_min_port">RTP 最小端口</string>
+  <string name="rtp_max_port">RTP 最大端口</string>
+  <string name="set_rtp_min_port">设置 RTP 最小端口</string>
+  <string name="set_rtp_max_port">设置 RTP 最大端口</string>
   <string name="set_buffer_size">设置缓冲大小</string>
   <string name="set_apn">选择接入优先点</string>
   <string name="setting">设置</string>

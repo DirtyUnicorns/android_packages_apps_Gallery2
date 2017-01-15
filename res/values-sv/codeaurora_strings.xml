@@ -53,8 +53,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="apn">Föredragen APN</string>
   <string name="rtp_min_port">Min port</string>
   <string name="rtp_max_port">Max port</string>
-  <string name="set_rtp_min_port">Set min port</string>
-  <string name="set_rtp_max_port">Set max port</string>
+  <string name="set_rtp_min_port">Ange lägsta portnummer</string>
+  <string name="set_rtp_max_port">Ange högsta portnummer</string>
   <string name="set_buffer_size">Set buffer size</string>
   <string name="set_apn">Select prefered apn</string>
   <string name="setting">Settings</string>
@@ -62,16 +62,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="server_timeout_message">"Reconnect the server to play the video or not?"</string>
   <string name="videoview_error_text_cannot_connect_retry">"Connection failed, try to reconnect %1$d..."</string>
   <string name="media_controller_live">Live</string>
-  <string name="media_controller_playing">Playing</string>
-  <string name="media_controller_connecting">Connecting...</string>
-  <string name="bookmark_add">"Add bookmark"</string>
-  <string name="bookmark_display">"Show bookmarks"</string>
-  <string name="bookmark_empty">"No bookmarks"</string>
+  <string name="media_controller_playing">Spelar</string>
+  <string name="media_controller_connecting">Ansluter...</string>
+  <string name="bookmark_add">"Lägg till bokmärke"</string>
+  <string name="bookmark_display">"Visa bokmärken"</string>
+  <string name="bookmark_empty">"Inga bokmärken"</string>
   <string name="bookmark_exist">"Same bookmark in history"</string>
   <string name="bookmark_add_success">"Add bookmark success"</string>
-  <string name="bookmark_list">"Bookmarks"</string>
-  <string name="bookmark_title">"Title"</string>
+  <string name="bookmark_list">"Bokmärken"</string>
+  <string name="bookmark_title">"Titel"</string>
   <string name="bookmark_location">"Location"</string>
-  <string name="delete_all">"Delete all"</string>
+  <string name="delete_all">"Ta bort alla"</string>
   <string name="default_title">"Default title"</string>
 </resources>
