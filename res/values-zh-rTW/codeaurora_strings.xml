@@ -37,9 +37,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="loop">"循環"</string>
   <string name="single">"單次"</string>
   <string name="stereo">"立體聲"</string>
-  <string name="speaker_on">Speaker ON</string>
-  <string name="speaker_off">Speaker OFF</string>
-  <string name="speaker_need_headset">Please plug in headset first!</string>
+  <string name="speaker_on">喇叭 開啟</string>
+  <string name="speaker_off">喇叭 關閉</string>
+  <string name="speaker_need_headset">請先插入耳機！</string>
   <string name="single_track">"單聲道"</string>
   <string name="media_detail">"媒體詳情"</string>
   <string name="input_url">"輸入 URL"</string>
