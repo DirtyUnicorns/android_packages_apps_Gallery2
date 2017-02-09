@@ -18,9 +18,9 @@
     <color name="default_background">#000</color>
     <color name="ic_launcher_gallery_background">#4285f4</color>
 
-    <color name="primary">#D32F2F</color>
-    <color name="primary_dark">#C62828</color>
-    <color name="accent">#E53935</color>
+    <color name="primary">#0cac9b</color>
+    <color name="primary_dark">#0b9788</color>
+    <color name="accent">#0ec2b0</color>
     <color name="textColor">#ffffff</color>
 
     <!-- configuration for album set page -->
@@ -52,7 +52,6 @@
     <color name="ingest_date_tile_text">#777777</color>
 
     <!-- Camera resources below -->
-
     <color name="recording_time_elapsed_text">#FFFFFFFF</color>
     <color name="recording_time_remaining_text">#FFFF0033</color>
     <color name="on_viewfinder_label_background_color">#77333333</color>
