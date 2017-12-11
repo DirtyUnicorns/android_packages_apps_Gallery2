@@ -16,7 +16,6 @@
 <resources>
     <color name="holo_gray_light">#33999999</color>
     <color name="default_background">#000</color>
-    <color name="ic_launcher_gallery_background">#4285f4</color>
 
     <color name="primary">#0cac9b</color>
     <color name="primary_dark">#0b9788</color>
