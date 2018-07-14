@@ -14,5 +14,5 @@
      limitations under the License.
 -->
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
-    <cache-path name="cropped_image"/>
+    <external-path name="external_files" path="."/>
 </paths>
